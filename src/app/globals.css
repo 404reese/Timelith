@@ -2,46 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Satoshi Light';
-  src: url('./fonts/Satoshi-Light.woff2') format('woff2'),
-       url('./fonts/Satoshi-Light.woff') format('woff');
-  font-weight: 100; /* Light weight */
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Satoshi';
-  src: url('./fonts/satoshi-regular.woff2') format('woff2'),
-       url('./fonts/Satoshi-Regular.woff') format('woff');
-  font-weight: 400; /* Regular weight */
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Satoshi Bold';
-  src: url('./fonts/satoshi-bold.woff2') format('woff2'),
-       url('./fonts/satoshi-bold.woff') format('woff');
-  font-weight: 700; /* Bold weight */
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 :root {
   --background: #000; /* Light background */
   --foreground: #fff; /* Dark text for contrast */
-  font-family: 'Satoshi', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Satoshi', sans-serif;
+  font-family: 'Raleway', sans-serif;
   height: 100%;
   
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Satoshi', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 @layer utilities {
