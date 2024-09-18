@@ -1,0 +1,11 @@
+.title {
+    font-size: 2.25rem; /* Equivalent to text-4xl in Tailwind */
+    font-weight: 700; /* Equivalent to font-bold in Tailwind */
+    color: #efefef; /* Black text */
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    padding: 1rem; /* p-4 in Tailwind */
+    border-radius: 0.5rem; /* rounded-lg in Tailwind */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md in Tailwind */
+    backdrop-filter: blur(10px); /* Blur effect for glassmorphism */
+  }
+  

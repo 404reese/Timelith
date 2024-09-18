@@ -2,26 +2,87 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: 'Satoshi Light';
+  src: url('./fonts/Satoshi-Light.woff2') format('woff2'),
+       url('./fonts/Satoshi-Light.woff') format('woff');
+  font-weight: 100; /* Light weight */
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./fonts/satoshi-regular.woff2') format('woff2'),
+       url('./fonts/Satoshi-Regular.woff') format('woff');
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi Bold';
+  src: url('./fonts/satoshi-bold.woff2') format('woff2'),
+       url('./fonts/satoshi-bold.woff') format('woff');
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
+
+:root {
+  --background: #000; /* Light background */
+  --foreground: #fff; /* Dark text for contrast */
+  font-family: 'Satoshi', sans-serif;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Satoshi', sans-serif;
+  height: 100%;
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Satoshi', sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: #ffffff; /* Light background */
+    --foreground: #000000; /* Dark text for contrast */
+    --card: #ffffff;
+    --card-foreground: #000000;
+    --popover: #ffffff;
+    --popover-foreground: #000000;
+    --primary: #000000;
+    --primary-foreground: #ffffff;
+    --secondary: #f0f0f0;
+    --secondary-foreground: #000000;
+    --muted: #f0f0f0;
+    --muted-foreground: #666666;
+    --accent: #f0f0f0;
+    --accent-foreground: #000000;
+    --destructive: #ff4d4d;
+    --destructive-foreground: #ffffff;
+    --border: #cccccc;
+    --input: #cccccc;
+    --ring: #000000;
+    --chart-1: #ff9999;
+    --chart-2: #66b3ff;
+    --chart-3: #99ff99;
+    --chart-4: #ffcc99;
+    --chart-5: #c2c2f0;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }

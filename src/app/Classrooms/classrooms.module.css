@@ -1,0 +1,81 @@
+/* InstructorRecords.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto; /* Center container horizontally */
+  }
+  
+  .title {
+    font-family: sans-serif;
+    background-color: #696969; 
+    color: white; 
+    padding: 20px; 
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px; /* Space below the title */
+    border-radius: 8px; /* Optional: rounded corners */
+    display: inline-block; /* Optional: only as wide as the content */
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+  
+  .label{
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column; /* Vertical layout for form groups */
+    gap: 1.5rem; /* Increased gap between elements */
+    margin-bottom: 1.5rem; /* Increased margin-bottom */
+  }
+  
+  .inputRow {
+    display: flex;
+    gap: 1rem; /* Space between input fields */
+  }
+  
+  .formGroup {
+    flex: 1; /* Allow form groups to grow and fill the row */
+  }
+  
+  .inputField {
+    width: 100%; /* Full width for input fields */
+    margin-top: 0.5rem;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center; /* Center align the button */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders between cells are merged */
+    margin-top: 20px;
+  }
+  
+  .tableHeader th {
+    border-bottom: 2px solid #ddd; /* Line below header cells */
+    padding: 10px; /* Padding for header cells */
+    text-align: center; /* Center text in header cells */
+  }
+  
+  .tableRow {
+    border-bottom: 1px solid #ddd; /* Line between rows */
+  }
+  
+  .tableRow td {
+    padding: 10px; /* Padding for data cells */
+    text-align: center; /* Align text to the left in data cells */
+  }
+  
