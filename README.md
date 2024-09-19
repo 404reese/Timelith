@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Timelith Super Scheduler
 
-## Getting Started
+## Description
+The Timelith Super Scheduler is a system designed to optimize scheduling for educational institutions. It automates the scheduling process, generates optimal timetables, and provides a user-friendly interface. The system ensures data integrity and security, integrates with existing systems, and meets performance, security, usability, scalability, and maintainability requirements.
 
-First, run the development server:
+## Motivation
+The inspiration behind the Timelith Super Scheduler arose from observing educators spending excessive time preparing timetables. Our goal is to solve this problem by automating the scheduling process.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+- **Automated Scheduling**: Streamlines the timetable creation process.
+- **User-Friendly Interface**: Easy navigation for all users.
+- **Integration Capabilities**: Works seamlessly with existing systems.
+- **Data Integrity & Security**: Protects sensitive information.
+- **Performance Optimization**: Ensures efficient scheduling with minimal delays.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Practical Use Case
+The Timelith Super Scheduler is intended for educational institutions to generate and manage timetables effectively.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Target Users
+- College administrations
+- Scheduling staff
+- Instructors
+- Students
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Benefits
+- Saves time for scheduling staff
+- Reduces manual effort in timetable management
+- Ensures adherence to scheduling rules
+- Improves overall efficiency in timetable management
 
-## Learn More
+## Technologies Used
+- **Next.js**: For the front-end framework.
+- **Java Quarkus**: For the back-end.
+- **Supabase**: For database management.
+- **Timefold AI**: For intelligent scheduling.
+- **REST API**: For communication between components.
+- **Vercel & AWS Lambda**: For deployment. (backend is yet to be deployed)
 
-To learn more about Next.js, take a look at the following resources:
+## Try It Out
+You can try the Timelith Super Scheduler at: https://timelith.vercel.app/.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Suggestions
+Suggestions are welcome! Please reach out to me on provided contact information.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact Information
+For questions or support, please reach out to us at [riddhesh.chaudhary@gmail.com].
