@@ -1,6 +1,8 @@
 // components/TimeSlotPicker.tsx
 "use client";
 import React, { useState } from 'react';
+import Link from 'next/link';
+import { Button } from '../../components/ui/button';
 
 const TimeSlotPicker: React.FC = () => {
   const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
@@ -181,6 +183,30 @@ const TimeSlotPicker: React.FC = () => {
           ))}
         </tbody>
       </table>
+      <div>
+        <Link href="/Classrooms" passHref>
+          <Button 
+            variant="bottom" 
+            size='lg'
+            onClick={() => {
+              console.log("Previous Section");
+            }}
+          >
+            ← Previous Section
+          </Button>
+        </Link>
+        <Link href="/Generation" passHref>
+          <Button 
+            variant="bottom" 
+            size='lg'
+            onClick={() => {
+              console.log("Next Section");
+            }}
+          >
+            Next Section →
+          </Button>
+        </Link>
+      </div>
     </div>
   );
 };

@@ -158,7 +158,7 @@ export default function ClassroomRecords() {
             ← Previous Section
           </Button>
         </Link>
-        <Link href="/Generation" passHref>
+        <Link href="/Timeslots" passHref>
           <Button 
             variant="bottom" 
             size='lg'

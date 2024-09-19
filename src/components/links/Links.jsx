@@ -48,7 +48,7 @@ const Links = ({session}) => {
             
           </>
         ) : (
-          <NavLink item={{ title: "Login", path: "/login" }} />
+          <NavLink item={{ title: "Login", path: "/Login" }} />
         )}
       </div>
       <Image
